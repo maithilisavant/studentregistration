@@ -11,6 +11,7 @@
 <th>Last name</th>
 <th>Contact Number </th>
 <th>Email</th>
+<th>Time</th>
 </tr>
 
 <?php
@@ -31,7 +32,7 @@
             // output data of each row
             while($row = $result->fetch_assoc()) {
             echo "<tr><td>" . $row["userid"]. "</td><td>" . $row["fname"] . "</td><td>"
-            . $row["lname"]. "</td><td>" . $row["contact"]. "</td><td>" . $row["email"]. "</td></tr>" ;
+            . $row["lname"]. "</td><td>" . $row["contact"]. "</td><td>" . $row["email"]. "</td><td>" . $row["timestamp"] . "</td></tr>" ;
             }
             echo "</table>";
             } 
