@@ -73,3 +73,21 @@ span a{
     text-decoration: none;
     color: #000;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px; 
+    margin-top: 20px;
+    align-content: center;
+}
+
+th {
+    background: #34b3a0;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
