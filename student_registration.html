@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Student Registration</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <script>
+            //javascript code to hide and show the signup and login form
+            //document.getElementById('loginbtn').style.visibility= 'hidden';
+            //function myFunction(){
+                //var loginform= 
+                //hide(document.getElementById('loginbtn'));
+            
+            //}
+
+        </script>
+
+        <div class="container">
+            <div class="signup" onclick="myFunction()" id="signupbtn">Signup</div>
+            <div class="login" onclick="myFunction()" id="loginbtn">Login</div>
+
+            <div class="signup-form">
+                <form method="post" action="signup.php">
+                    <input type="text" placeholder="Enter your First Name" name="fname" class="input"><br>
+
+                    <input type="text" placeholder="Enter your Last Name" name="lname" class="input"><br>
+
+                    <input type="text" placeholder="Enter your Email" name="emailid" class="input"><br>
+
+                    <input type="text" placeholder="Enter your Contact Number" name="cno" class="input"><br>
+
+                    <input type="text" placeholder="Set Password" name="password" class="input"><br>
+
+                    <input type="text" placeholder="Confirm Password" name="pword2" class="input"><br>
+
+                    <input type="submit" value="Signup" name="submit" class="btn">
+                </form>
+            </div>
+
+            <div class="login-form">
+                <form method="post" action="login.php">
+                    <input type="text" placeholder="Enter Email" name="emailid" class="input"><br>
+
+                    <input type="text" placeholder="Enter Password" name="password" class="input"><br>
+        
+                    <input type="submit" value="Login" name="submit" class="btn">
+                    <span><a href="#">Forgot Username or Password?</a></span>
+                </form>
+            </div>
+
+        </div>
+    </body>
+</html>
