@@ -23,7 +23,13 @@
             
             if($conn->query($sql) === TRUE){
                 echo " Registered Successfully";
+            ?>
+            
+                <html>
+                <a href="student_registration.html">Login</a>
+                </html>
 
+            <?php
             }
             else
             {
