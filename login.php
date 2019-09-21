@@ -31,7 +31,7 @@
             // output data of each row
             while($row = $result->fetch_assoc()) {
             echo "<tr><td>" . $row["userid"]. "</td><td>" . $row["fname"] . "</td><td>"
-            . $row["lname"]. "</td></td>" . $row["contact"]. "</td><td>" . $row["email"]. "</td></tr>" ;
+            . $row["lname"]. "</td><td>" . $row["contact"]. "</td><td>" . $row["email"]. "</td></tr>" ;
             }
             echo "</table>";
             } 
